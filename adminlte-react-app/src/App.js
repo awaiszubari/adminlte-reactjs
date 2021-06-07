@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import Header from './layout/header';
 
-function App() {
-  return (
-    <div className="wrapper">
-      <h1>This is a test App by Awais Zubari</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="wrapper">
+        <Header>This is a test App by Awais Zubari</Header>
+      </div>
+    );
+  }
 }
 
 export default App;

@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import './App.css';
 import Header from './layout/header';
+import Sidebar from './layout/sidebar';
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <Header>This is a test App by Awais Zubari</Header>
+        <Header />
+        <Sidebar />
       </div>
     );
   }
